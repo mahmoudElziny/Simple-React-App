@@ -14,11 +14,11 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 const router = createBrowserRouter([
   {
-    path: "/", element: <App />, children: [
-      { path: "/", element: <Home /> },
-      { path: "about", element: <About /> },
-      { path: "portfolio", element: <Portfolio /> },
-      { path: "contact", element: <Contact /> },
+    path: "/simple-react-app", element: <App />, children: [
+      { path: "/simple-react-app", element: <Home /> },
+      { path: "/simple-react-app/about", element: <About /> },
+      { path: "/simple-react-app/portfolio", element: <Portfolio /> },
+      { path: "/simple-react-app/contact", element: <Contact /> },
     ]
   }
 ])
