@@ -1,0 +1,161 @@
+.navbar, footer {
+  background-color: #2C3E50;
+}
+
+.icon-div {
+  width: 40px;
+  height: 40px;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+
+.footer-feet {
+  background-color: #1a252f;
+}
+
+header, .about {
+  background-color: #1abc9c;
+}
+
+.icon-home {
+  position: relative;
+}
+
+.icon-home::after {
+  content: "";
+  position: absolute;
+  top: 40%;
+  left: 58%;
+  width: 30%;
+  height: 4px;
+  background-color: white;
+}
+
+.icon-home::before {
+  content: "";
+  position: absolute;
+  top: 40%;
+  right: 58%;
+  width: 30%;
+  height: 4px;
+  background-color: white;
+}
+
+.icon-about {
+  position: relative;
+}
+
+.icon-about::after {
+  content: "";
+  position: absolute;
+  top: 40%;
+  left: 53%;
+  width: 10%;
+  height: 4px;
+  background-color: white;
+}
+
+.icon-about::before {
+  content: "";
+  position: absolute;
+  top: 40%;
+  right: 53%;
+  width: 10%;
+  height: 4px;
+  background-color: white;
+}
+
+.icon-portfolio {
+  position: relative;
+}
+
+.icon-portfolio::after {
+  content: "";
+  position: absolute;
+  top: 40%;
+  left: 52%;
+  width: 8%;
+  height: 4px;
+  background-color: #000;
+}
+
+.icon-portfolio::before {
+  content: "";
+  position: absolute;
+  top: 40%;
+  right: 52%;
+  width: 8%;
+  height: 4px;
+  background-color: #000;
+}
+
+
+.portfolio-item {
+  position: relative;
+}
+
+.plus {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  background-color: #1abc9c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: all .5s;
+}
+
+.fa-plus {
+  font-size: 70px;
+  font-weight: bolder;
+  color: #fff;
+}
+
+.portfolio-item:hover .plus {
+  opacity: .8;
+}
+
+.icon-conatct {
+  position: relative;
+}
+
+.icon-conatct::after {
+  content: "";
+  position: absolute;
+  top: 40%;
+  left: 52%;
+  width: 8%;
+  height: 4px;
+  background-color: #000;
+}
+
+.icon-conatct::before {
+  content: "";
+  position: absolute;
+  top: 40%;
+  right: 52%;
+  width: 8%;
+  height: 4px;
+  background-color: #000;
+}
+
+.send, .send:hover {
+  color: #fff;
+  background-color: #1abc9c;
+}
+
+input::placeholder {
+  font-size: 18px;
+}
+
+.navbar {
+  transition: all .5s;
+}
+
+.nav-item .active {
+    border-radius: 10px;
+    background-color: #1abc9c;
+}
